@@ -3,13 +3,13 @@
      bg-cover bg-center" style="background-image: url('/images/grid-texture.png');">
       <div class="text-center pt-8 flex flex-col items-center justify-center">
         <h1 class="text-2xl lg:text-4xl font-bold">
-          <span class="block lg:hidden">
+          <span class="block lg:hidden md:hidden">
             Collaborate with Us to <br />
             Bring Your Vision to Life <br />
             Through Cutting-Edge <br />
             Technology Solutions!
           </span>
-          <span class="hidden lg:block">
+          <span class="hidden md:block">
             Collaborate with Us to Bring Your <br />
             Vision to Life Through Cutting-Edge <br />
             Technology Solutions!
