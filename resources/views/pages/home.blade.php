@@ -64,7 +64,7 @@
     </section>
     <section class="bg-[#F3F3F3]">
         <div class="container mx-auto">
-          <div class="py-16">
+          <div class="py-16 mx-4">
             <div class="flex lg:flex-row flex-col items-center justify-between">
               <div>
                 <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-5xl font-bold mb-4">
@@ -81,7 +81,7 @@
             </div>
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-6">
               <div class="rounded-xl border flex justify-center items-center bg-white">
-                <div class="m-6">
+                <div class="p-5 w-full">
                   <div class="flex flex-row justify-between mb-2">
                     <h1 class="text-blue-950 text-xl font-bold">UI/UX Design</h1>
                     <div class="hidden lg:inline">
@@ -105,7 +105,7 @@
                 </div>
               </div>
               <div class="rounded-xl border flex justify-center items-center bg-white">
-                <div class="m-6">
+                <div class="p-5 w-full">
                   <div class="flex flex-row justify-between mb-2">
                     <h1 class="text-blue-950 text-xl font-bold">UI/UX Design</h1>
                     <div class="hidden lg:inline">
@@ -129,7 +129,7 @@
                 </div>
               </div>
               <div class="rounded-xl border flex justify-center items-center bg-white">
-                <div class="m-6">
+                <div class="p-5 w-full">
                   <div class="flex flex-row justify-between mb-2">
                     <h1 class="text-blue-950 text-xl font-bold">UI/UX Design</h1>
                     <div class="hidden lg:inline">
@@ -153,7 +153,7 @@
                 </div>
               </div>
               <div class="rounded-xl border flex justify-center items-center bg-white">
-                <div class="m-6">
+                <div class="p-5 w-full">
                   <div class="flex flex-row justify-between mb-2">
                     <h1 class="text-blue-950 text-xl font-bold">UI/UX Design</h1>
                     <div class="hidden lg:inline">
@@ -174,6 +174,81 @@
                   <div class="rounded-2xl border">
                     <img src="{{ asset('images/dummy.png') }}" alt="" srcset="" class="w-full">
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-white">
+        <div class="container mx-auto">
+          <div class="py-12 px-4">
+            <div class="flex lg:flex-row flex-col items-center justify-between">
+              <div>
+                <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-5xl font-bold mb-4">Portfolio</h1>
+                <p>Showcasing Our Success Stories Across Diverse Industries</p>
+              </div>
+                <button
+                class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/6 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300"
+              >
+                <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
+                Expolre All
+              </button>
+            </div>
+            <div>
+              <div class="flex lg:flex-row flex-col lg:py-12 gap-x-8">
+                <div class="w-full">
+                  <img src="{{ asset('images/protodumy.png') }}" alt="" srcset="" class="w-full">
+                </div>
+                <div class="flex flex-col">
+                  <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">2024</p>
+                  <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">Lorem ipsum dolor sit amet consectetur. Nulla eu ac sed tortor.</h1>
+                  <div class="flex gap-x-2">
+                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
+                      Service
+                    </button>
+                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
+                      Portfolio
+                    </button>
+                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
+                      About Us
+                    </button>
+                  </div>
+                  <p class="py-4">Lorem ipsum dolor sit amet consectetur. Leo sit facilisis amet adipiscing vivamus sit nunc. Tellus semper habitant luctus hendrerit neque nunc sit tellus. Facilisis a in varius et egestas dolor. Enim elementum magnis lobortis pharetra turpis mauris.</p>
+                  <button
+                  class="text-sm md:text-base bg-blue-950 rounded-full lg:w-1/4 w-full py-3 flex items-center justify-center gap-x-4 border text-white"
+                >
+                  <span><img src="{{ asset('images/icon/arroww.svg') }}" alt="Arrow Icon"/></span>
+                  See Detail
+                </button>
+                </div>
+              </div>
+              <div class="horizontal-line bg-slate-300 lg:my-0 my-6"></div>
+              <div class="flex lg:flex-row flex-col lg:py-12 gap-x-8">
+                <div class="w-full">
+                  <img src="{{ asset('images/protodumy.png') }}" alt="" srcset="" class="w-full">
+                </div>
+                <div class="flex flex-col">
+                  <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">2024</p>
+                  <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">Lorem ipsum dolor sit amet consectetur. Nulla eu ac sed tortor.</h1>
+                  <div class="flex gap-x-2">
+                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
+                      Service
+                    </button>
+                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
+                      Portfolio
+                    </button>
+                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
+                      About Us
+                    </button>
+                  </div>
+                  <p class="py-4">Lorem ipsum dolor sit amet consectetur. Leo sit facilisis amet adipiscing vivamus sit nunc. Tellus semper habitant luctus hendrerit neque nunc sit tellus. Facilisis a in varius et egestas dolor. Enim elementum magnis lobortis pharetra turpis mauris.</p>
+                  <button
+                  class="text-sm md:text-base bg-blue-950 rounded-full lg:w-1/4 w-full py-3 flex items-center justify-center gap-x-4 border text-white"
+                >
+                  <span><img src="{{ asset('images/icon/arroww.svg') }}" alt="Arrow Icon"/></span>
+                  See Detail
+                </button>
                 </div>
               </div>
             </div>
