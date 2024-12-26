@@ -73,14 +73,14 @@
             </div>
         </div>
     </section>
-    <section class="mt-24 mb-40">
+    <section class="mt-24 mb-40 lg: mx-4">
         <div class="container mx-auto">
-            <div class="flex flex-row items-center">
+            <div class="flex lg:flex-row flex-col items-center gap-y-4 lg:gap-y-0">
                 <div>
                     <h1 class="text-slate-950 text-3xl md:text-4xl lg:text-4xl font-bold pb-4">01 Vision</h1>
                     <p class="text-slate-500 text-xl">Lorem ipsum dolor sit amet consectetur. Leo sit facilisis amet adipiscing vivamus sit nunc. Tellus semper habitant luctus hendrerit neque nunc sit tellus. Facilisis a in varius et egestas dolor. Enim elementum magnis lobortis pharetra turpis mauris.</p>
                 </div>
-                <hr class="w-1/3 rotate-90">
+                <hr class="w-1/3 rotate-90 hidden lg:inline">
                 <div>
                     <h1 class="text-slate-950 text-3xl md:text-4xl lg:text-4xl font-bold pb-4">02 Mision</h1>
                     <p class="text-slate-500 text-xl">Lorem ipsum dolor sit amet consectetur. Leo sit facilisis amet adipiscing vivamus sit nunc. Tellus semper habitant luctus hendrerit neque nunc sit tellus. Facilisis a in varius et egestas dolor. Enim elementum magnis lobortis pharetra turpis mauris.</p>
