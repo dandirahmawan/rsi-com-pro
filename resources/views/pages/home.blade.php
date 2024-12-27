@@ -12,7 +12,13 @@
                     Business with <br class="hidden lg:inline" />
                     <span class="lg:hidden">Innovative <br />
                         IT Solutions</span>
-                    <span class="hidden lg:inline">Innovative IT Solutions</span>
+                    <span class="hidden lg:inline">Innovative
+                         <span class="text-[#C19034]">IT Solutions</span></span>
+                         <span class="absolute right-80 -translate-x-14 -translate-y-2">
+                            <img
+                            class="w-96 px-5"
+                             src="{{ asset('images/ITcontent.svg') }}" alt="" srcset="">
+                        </span>
                 </h1>
                 <p class="text-sm md:text-base lg:text-lg px-4 md:px-10 pt-4">
                     From strategy to execution, we deliver tailored technology services
@@ -73,109 +79,43 @@
                 <p>Innovative Technology Services Designed to Drive Your Business Forward</p>
               </div>
                 <button
-                class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/6 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300"
+                class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/4 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300"
               >
                 <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
                 Expolre All
               </button>
             </div>
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-6">
-              <div class="rounded-xl border flex justify-center items-center bg-white">
-                <div class="p-5 w-full">
-                  <div class="flex flex-row justify-between mb-2">
-                    <h1 class="text-blue-950 text-xl font-bold">UI/UX Design</h1>
-                    <div class="hidden lg:inline">
-                      <a
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-full border"
-                    >
-                      <img
-                        src="{{ asset('images/icon/arrow.svg') }}"
-                        alt="Instagram Icon"
-                      />
-                    </a>
+                @foreach($services as $service)
+                    <div class="rounded-xl border flex justify-center items-center bg-white">
+                        <div class="p-5 w-full">
+                            <div class="flex flex-row justify-between mb-2">
+                                <h1 class="text-blue-950 text-xl font-bold">{{ $service['title'] }}</h1>
+                                <div class="hidden lg:inline">
+                                    <a
+                                        href="{{ $service['link'] }}"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-full border"
+                                    >
+                                        <img
+                                            src="{{ asset('images/icon/arrow.svg') }}"
+                                            alt="Arrow Icon"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="leading-relaxed mb-4">{{ $service['description'] }}</p>
+                            <div class="rounded-2xl border overflow-hidden">
+                                <img
+                                    class="object-cover w-full h-[214px]"
+                                    src="{{ asset($service['image']) }}"
+                                    alt="{{ $service['title'] }}"
+                                />
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <p class="leading-relaxed mb-4">Creating intuitive and engaging user experiences that delight customers and drive results.</p>
-                  <div class="rounded-2xl border">
-                    <img src="{{ asset('images/dummy.png') }}" alt="" srcset="" class="w-full">
-                  </div>
-                </div>
-              </div>
-              <div class="rounded-xl border flex justify-center items-center bg-white">
-                <div class="p-5 w-full">
-                  <div class="flex flex-row justify-between mb-2">
-                    <h1 class="text-blue-950 text-xl font-bold">UI/UX Design</h1>
-                    <div class="hidden lg:inline">
-                      <a
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-full border"
-                    >
-                      <img
-                        src="{{ asset('images/icon/arrow.svg') }}"
-                        alt="Instagram Icon"
-                      />
-                    </a>
-                    </div>
-                  </div>
-                  <p class="leading-relaxed mb-4">Creating intuitive and engaging user experiences that delight customers and drive results.</p>
-                  <div class="rounded-2xl border">
-                    <img src="{{ asset('images/dummy.png') }}" alt="" srcset="" class="w-full">
-                  </div>
-                </div>
-              </div>
-              <div class="rounded-xl border flex justify-center items-center bg-white">
-                <div class="p-5 w-full">
-                  <div class="flex flex-row justify-between mb-2">
-                    <h1 class="text-blue-950 text-xl font-bold">UI/UX Design</h1>
-                    <div class="hidden lg:inline">
-                      <a
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-full border"
-                    >
-                      <img
-                        src="{{ asset('images/icon/arrow.svg') }}"
-                        alt="Instagram Icon"
-                      />
-                    </a>
-                    </div>
-                  </div>
-                  <p class="leading-relaxed mb-4">Creating intuitive and engaging user experiences that delight customers and drive results.</p>
-                  <div class="rounded-2xl border">
-                    <img src="{{ asset('images/dummy.png') }}" alt="" srcset="" class="w-full">
-                  </div>
-                </div>
-              </div>
-              <div class="rounded-xl border flex justify-center items-center bg-white">
-                <div class="p-5 w-full">
-                  <div class="flex flex-row justify-between mb-2">
-                    <h1 class="text-blue-950 text-xl font-bold">UI/UX Design</h1>
-                    <div class="hidden lg:inline">
-                      <a
-                      href="#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-full border"
-                    >
-                      <img
-                        src="{{ asset('images/icon/arrow.svg') }}"
-                        alt="Instagram Icon"
-                      />
-                    </a>
-                    </div>
-                  </div>
-                  <p class="leading-relaxed mb-4">Creating intuitive and engaging user experiences that delight customers and drive results.</p>
-                  <div class="rounded-2xl border">
-                    <img src="{{ asset('images/dummy.png') }}" alt="" srcset="" class="w-full">
-                  </div>
-                </div>
-              </div>
+                @endforeach
             </div>
           </div>
         </div>
@@ -189,7 +129,7 @@
                 <p>Showcasing Our Success Stories Across Diverse Industries</p>
               </div>
                 <button
-                class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/6 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300"
+                class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/4 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300"
               >
                 <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
                 Expolre All
