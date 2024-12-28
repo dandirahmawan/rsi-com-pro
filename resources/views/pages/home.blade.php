@@ -6,17 +6,20 @@
     <section class="bg-blue-900 bg-cover bg-center h-screen" style="background-image: url('/images/grid-texture.png');">
         <div class="container mx-auto h-full flex flex-col justify-center">
             <!-- Hero Text Section -->
-            <div class="text-white text-center flex flex-col items-center justify-center pt-8 lg:pt-16">
+            <div class="text-white text-center flex flex-col items-center justify-center pt-8 lg:pt-20">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                     Empowering Your <br class="block lg:hidden" />
                     Business with <br class="hidden lg:inline" />
-                    <span class="lg:hidden">Innovative <br />
-                        IT Solutions</span>
+                    <span class="lg:hidden"> <br /> Innovative <br>
+                     <span class="text-[#C19034]">IT Solutions</span></span>
                     <span class="hidden lg:inline">Innovative
                          <span class="text-[#C19034]">IT Solutions</span></span>
-                         <span class="absolute right-80 -translate-x-14 -translate-y-2">
+                         <span
+                         class="absolute right-6 -translate-y-1 -translate-x-20
+                         md:-translate-x-36 md:right-24 md:-translate-y-2
+                         xl:-translate-x-1 xl:-translate-y-2">
                             <img
-                            class="w-96 px-5"
+                            class="xl:w-96 xl:px-5 w-52 mx-1 md:w-72 md:-mx-1"
                              src="{{ asset('images/ITcontent.svg') }}" alt="" srcset="">
                         </span>
                 </h1>
@@ -32,16 +35,31 @@
                     <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
                     Get a Free Consultation
                 </button>
-                <p class="text-white text-sm md:text-base">
+                <span class="absolute right-12 translate-y-24 lg:inline hidden">
+                    <img src="{{ asset('images/Comment cursor.svg') }}" alt="">
+                </span>
+                <p class="text-white text-sm md:text-base lg:mt-8 lg:pb-16">
                     Trusted IT Solutions for Industry Leaders
                 </p>
                 <!-- Logo Section -->
-                <div class="overflow-x-auto">
+                <div class="overflow-x-auto grayscale">
                     <div class="flex gap-x-4 md:gap-x-8 lg:gap-x-10 items-center justify-start flex-nowrap mt-4">
-                        <img src="/assets/slack.png" alt="Slack Logo" />
-                        <img src="/assets/sony.png" alt="Sony Logo" />
-                        <img src="/assets/spotify.png" alt="Spotify Logo" />
-                        <img src="/assets/spacex.png" alt="SpaceX Logo" />
+                        <img
+                        src="{{ asset('images/companyhero/samsung-1-logo-svgrepo-com.png') }}" alt="Slack Logo" />
+                        <img
+                        src="{{ asset('images/companyhero/silver-star-1-logo-svgrepo-com.png') }}" alt="Slack Logo" />
+                        <img
+                        src="{{ asset('images/companyhero/slack-logo-svgrepo-com.png') }}" alt="Slack Logo" />
+                        <img
+                        src="{{ asset('images/companyhero/sony-2-logo-svgrepo-com.png') }}" alt="Slack Logo" />
+                        <img
+                        src="{{ asset('images/companyhero/spacex-logo-svgrepo-com.png') }}" alt="Slack Logo" />
+                        <img
+                        src="{{ asset('images/companyhero/spotify-1-logo-svgrepo-com.png') }}" alt="Slack Logo" />
+                        <img
+                        src="{{ asset('images/companyhero/amazon-2-logo-svgrepo-com.png') }}" alt="Slack Logo" />
+                        <img
+                        src="{{ asset('images/companyhero/new-youtube-logo-logo-svgrepo-com.png') }}" alt="Slack Logo" />
                     </div>
                 </div>
             </div>

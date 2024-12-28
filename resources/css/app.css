@@ -7,3 +7,31 @@
     margin-right: auto;
     height: 1px;
   }
+
+  .navbar-menu {
+    transition: transform 0.3s ease;
+  }
+
+  .navbar-menu.active {
+    transform: translateX(0);
+  }
+
+  .sticky-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.navbar-menu {
+    transition: transform 0.3s ease;
+  }
+
+.navbar-menu.active {
+transform: translateX(0);
+}
+
+
+

@@ -17,5 +17,6 @@
 
     <!-- Footer -->
     @include('components.footer')
+    @vite('resources/js/navbar.js')
 </body>
 </html>
