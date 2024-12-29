@@ -3,7 +3,7 @@
 @section('title', 'Portfolio')
 
 @section('content')
-    <section class="bg-blue-900 bg-cover bg-center  lg:py-28 py-11" style="background-image: url('/images/grid-texture.png">
+    <section  class="bg-blue-900 bg-cover bg-center  lg:py-28 py-11" style="background-image: url('/images/grid-texture.png">
         <div class="container mx-auto">
             <div class="text-left px-4 lg:px-0">
                 <h1 class="text-white text-3xl md:text-5xl lg:text-5xl font-bold leading-tight">

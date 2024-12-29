@@ -2,21 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .horizontal-line {
     margin-left: auto;
     margin-right: auto;
     height: 1px;
   }
 
-  .navbar-menu {
-    transition: transform 0.3s ease;
-  }
+  @layer components {
+    .sticky-navbar {
+        @apply fixed top-0 left-0 right-0 z-50 transition-all duration-300;
+    }
 
-  .navbar-menu.active {
-    transform: translateX(0);
-  }
+    .sticky-navbar.scrolled {
+        @apply bg-white shadow-lg;
+    }
 
-  .sticky-navbar {
+    .sticky-navbar.scrolled .nav-li {
+        @apply text-gray-800;
+    }
+
+    .nav-li {
+        @apply text-white hover:text-[#2CB742] transition-colors duration-300;
+    }
+}
+
+.sticky-navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,13 +36,7 @@
     background-color: transparent;
 }
 
-.navbar-menu {
-    transition: transform 0.3s ease;
-  }
 
-.navbar-menu.active {
-transform: translateX(0);
-}
 
 
 

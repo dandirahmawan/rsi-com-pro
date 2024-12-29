@@ -11,4 +11,4 @@ Route::get('/portfolio', function () {
 
 Route::get('/aboutus', function () {
     return view('pages.aboutus');
-});
+})->name('aboutus');
