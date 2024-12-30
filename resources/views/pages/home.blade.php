@@ -35,7 +35,7 @@
                     Trusted IT Solutions for Industry Leaders
                 </p>
                 <!-- Logo Industry Section -->
-                <div class="overflow-x-auto grayscale">
+                <!-- <div class="overflow-x-auto grayscale">
                     <div class="flex gap-x-4 md:gap-x-8 lg:gap-x-10 items-center justify-start flex-nowrap mt-4">
                         <img src="{{ asset('images/companyhero/samsung-1-logo-svgrepo-com.png') }}" alt="Slack Logo" />
                         <img src="{{ asset('images/companyhero/silver-star-1-logo-svgrepo-com.png') }}" alt="Slack Logo" />
@@ -47,7 +47,7 @@
                         <img src="{{ asset('images/companyhero/new-youtube-logo-logo-svgrepo-com.png') }}"
                             alt="Slack Logo" />
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -144,11 +144,11 @@
             <div>
               <div class="flex lg:flex-row flex-col lg:py-12 gap-x-8">
                 <div class="w-full">
-                  <img src="{{ asset('images/protodumy.png') }}" alt="" srcset="" class="w-full">
+                  <img src="/images/7150856-pt-indonesia-power.jpg" alt="" srcset="" class="w-full">
                 </div>
                 <div class="flex flex-col">
-                  <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">2024</p>
-                  <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">Lorem ipsum dolor sit amet consectetur. Nulla eu ac sed tortor.</h1>
+                  <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">2022</p>
+                  <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">Machine Learning and Data Science. PT PLN Indonesia Power</h1>
                   <div class="flex gap-x-2">
                     <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
                       Service
@@ -160,23 +160,25 @@
                       About Us
                     </button>
                   </div>
-                  <p class="py-4">Lorem ipsum dolor sit amet consectetur. Leo sit facilisis amet adipiscing vivamus sit nunc. Tellus semper habitant luctus hendrerit neque nunc sit tellus. Facilisis a in varius et egestas dolor. Enim elementum magnis lobortis pharetra turpis mauris.</p>
-                  <button
+                  <p class="py-4">
+                  We are collaborating with PT Indonesia Power by providing highly skilled experts in the fields of data science and machine learning to address complex data management challenges. Our goal is to enhance the organization’s ability to harness the full potential of its data by employing advanced analytical techniques and innovative machine learning models.
+                  </p>
+                <!-- <button
                   class="text-sm md:text-base bg-blue-950 rounded-full lg:w-1/4 w-full py-3 flex items-center justify-center gap-x-4 border text-white"
                 >
                   <span><img src="{{ asset('images/icon/arroww.svg') }}" alt="Arrow Icon"/></span>
                   See Detail
-                </button>
+                </button> -->
                 </div>
               </div>
               <div class="horizontal-line bg-slate-300 lg:my-0 my-6"></div>
               <div class="flex lg:flex-row flex-col lg:py-12 gap-x-8">
                 <div class="w-full">
-                  <img src="{{ asset('images/protodumy.png') }}" alt="" srcset="" class="w-full">
+                  <img src="{{ asset('images/uob.jpg') }}" alt="" srcset="" class="w-full">
                 </div>
                 <div class="flex flex-col">
-                  <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">2024</p>
-                  <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">Lorem ipsum dolor sit amet consectetur. Nulla eu ac sed tortor.</h1>
+                  <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">2023</p>
+                  <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">Web Development Using Java 8.0</h1>
                   <div class="flex gap-x-2">
                     <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
                       Service
@@ -188,13 +190,17 @@
                       About Us
                     </button>
                   </div>
-                  <p class="py-4">Lorem ipsum dolor sit amet consectetur. Leo sit facilisis amet adipiscing vivamus sit nunc. Tellus semper habitant luctus hendrerit neque nunc sit tellus. Facilisis a in varius et egestas dolor. Enim elementum magnis lobortis pharetra turpis mauris.</p>
-                  <button
-                  class="text-sm md:text-base bg-blue-950 rounded-full lg:w-1/4 w-full py-3 flex items-center justify-center gap-x-4 border text-white"
-                >
-                  <span><img src="{{ asset('images/icon/arroww.svg') }}" alt="Arrow Icon"/></span>
-                  See Detail
-                </button>
+                  <p class="py-4">
+                    Repository collaborate with PT Pronata Data Insani, PT Indivara Sejahtera Sukses
+                    Makmur(Indivara) and PT Bank UOB Indonesia by assist fixing code for internal UOB App.
+                    The goals is to process transaction and track customer data automatically.
+                  </p>
+                  <!-- <button
+                    class="text-sm md:text-base bg-blue-950 rounded-full lg:w-1/4 w-full py-3 flex items-center justify-center gap-x-4 border text-white"
+                  >
+                    <span><img src="{{ asset('images/icon/arroww.svg') }}" alt="Arrow Icon"/></span>
+                    See Detail
+                  </button> -->
                 </div>
               </div>
             </div>
