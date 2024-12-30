@@ -16,10 +16,12 @@
         </ul>
 
         <!-- Contact Button -->
+        <a href="https://wa.me/6281299615636" target="_blank" rel="noopener noreferrer"">
         <button class="text-sm md:text-base bg-[#2CB742] text-white font-medium rounded-full py-3 px-10 items-center justify-center gap-x-2 shadow-lg hidden lg:flex">
             <span><img src="{{ asset('images/icon/call.svg') }}" alt="Arrow Icon"/></span>
-            Contact
+                Contact
         </button>
+        </a>
 
         <!-- Mobile Menu Button -->
         <button id="mobile-menu-button" class="lg:hidden">
@@ -31,7 +33,7 @@
         <!-- Mobile Menu Modal -->
         <div id="mobile-menu" class="fixed inset-x-0 top-0 transform -translate-y-full transition-transform duration-300 ease-in-out lg:hidden bg-white shadow-lg">
             <div class="flex justify-between items-center p-8">
-                <a href="#home">
+                <a href="{{ route('home') }}">
                     <img class="scale-90" src="{{ asset('images/logo.svg') }}" alt="">
                 </a>
                 <button id="close-menu" class="text-gray-800">
@@ -46,10 +48,12 @@
                 <li><a class="text-gray-800 text-lg" href="{{ url('/portfolio') }}">Portfolio</a></li>
                 <li><a class="text-gray-800 text-lg" href="{{ url('/aboutus') }}">About us</a></li>
                 <li>
+                    <a href="https://wa.me/6281299615636" target="_blank" rel="noopener noreferrer"">
                     <button class="w-full text-sm md:text-base bg-[#2CB742] text-white font-medium rounded-full py-3 px-10 flex items-center justify-center gap-x-2 shadow-lg">
                         <span><img src="{{ asset('images/icon/call.svg') }}" alt="Arrow Icon"/></span>
-                        Contact Us
-                    </button>
+                            Contact
+                        </button>
+                    </a>
                 </li>
             </ul>
         </div>

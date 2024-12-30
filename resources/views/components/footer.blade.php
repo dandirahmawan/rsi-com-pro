@@ -19,12 +19,14 @@
           Our expert team transforms your ideas into impactful designs and
           applications that drive results.
         </p>
+        <a href="https://wa.me/6281299615636" target="_blank" rel="noopener noreferrer">
         <button
-          class="text-sm lg:text-base text-black bg-white rounded-full w-11/12 lg:w-96 my-8 px-12 lg:px-20 py-3 lg:py-4 flex items-center justify-center gap-x-2 border"
+        class="text-sm lg:text-base text-black bg-white rounded-full w-11/12 lg:w-96 my-8 px-12 lg:px-20 py-3 lg:py-4 flex items-center justify-center gap-x-2 border md:w-full"
         >
-          <img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" class="w-4 lg:w-6" />
-          Get a Free Consultation
+        <img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" class="w-4 lg:w-6" />
+        Get a Free Consultation
         </button>
+        </a>
       </div>
       <div class="horizontal-line w-11/12 bg-white"></div>
       <div class="flex flex-col lg:flex-row items-center justify-between lg:mx-12 py-10">
