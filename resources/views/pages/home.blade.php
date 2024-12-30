@@ -26,7 +26,7 @@
                 <button
                     class="text-sm md:text-base bg-white rounded-full my-10 w-11/12 lg:w-1/4 py-3 flex items-center justify-center gap-x-2 shadow-lg">
                     <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
-                    Get a Free Consultation
+                    <a href="https://wa.me/6281299615636" target="_blank" rel="noopener noreferrer">Get a Free Consultation</a>
                 </button>
                 <span class="absolute right-12 translate-y-24 lg:inline hidden">
                     <img src="{{ asset('images/Comment cursor.svg') }}" alt="">
@@ -78,7 +78,7 @@
     <!-- End Empowering Section -->
 
     <!-- Service Section -->
-    <section class="bg-[#F3F3F3]">
+    <section id="service-section" class="bg-[#F3F3F3]">
         <div class="container mx-auto">
             <div class="py-16 mx-4">
                 <div class="flex lg:flex-row flex-col items-center justify-between mb-4">
@@ -102,7 +102,7 @@
                             <div class="p-5 w-full">
                                 <div class="flex flex-row justify-between mb-2">
                                     <h1 class="text-blue-950 text-xl font-bold">{{ $service['title'] }}</h1>
-                                    <div class="hidden lg:inline">
+                                    <div class="hidden">
                                         <a href="{{ $service['link'] }}" target="_blank" rel="noopener noreferrer"
                                             class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-full border">
                                             <img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" />
@@ -113,7 +113,7 @@
                                     {{ $service['description'] }}
                                 </p>
                                 <div class="rounded-2xl border overflow-hidden">
-                                    <img class="object-cover w-full h-[214px]" src="{{ asset($service['image']) }}"
+                                    <img class="object-cover w-full h-[250px]" src="{{ asset($service['image']) }}"
                                         alt="{{ $service['title'] }}" />
                                 </div>
                             </div>
@@ -128,84 +128,49 @@
     <!--Portfolio Section -->
     <section class="bg-white">
         <div class="container mx-auto">
-          <div class="py-12 px-4">
-            <div class="flex lg:flex-row flex-col items-center justify-between">
-              <div>
-                <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-5xl font-bold mb-4">Portfolio</h1>
-                <p>Showcasing Our Success Stories Across Diverse Industries</p>
-              </div>
-                <button
-                class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/4 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300"
-              >
-                <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
-                Expolre All
-              </button>
-            </div>
-            <div>
-              <div class="flex lg:flex-row flex-col lg:py-12 gap-x-8">
-                <div class="w-full">
-                  <img src="/images/7150856-pt-indonesia-power.jpg" alt="" srcset="" class="w-full">
+            <div class="py-12 px-4">
+                <div class="flex lg:flex-row flex-col items-center justify-between">
+                    <div>
+                        <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-5xl font-bold mb-4">Portfolio</h1>
+                        <p>Showcasing Our Success Stories Across Diverse Industries</p>
+                    </div>
+                    <button
+                        class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/4 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300">
+                        <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
+                        <a href="{{ route('portfolio') }}">
+                        Explore All
+                        </a>
+                    </button>
                 </div>
-                <div class="flex flex-col">
-                  <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">2022</p>
-                  <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">Machine Learning and Data Science. PT PLN Indonesia Power</h1>
-                  <div class="flex gap-x-2">
-                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-                      Service
-                    </button>
-                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-                      Portfolio
-                    </button>
-                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-                      About Us
-                    </button>
-                  </div>
-                  <p class="py-4">
-                  We are collaborating with PT Indonesia Power by providing highly skilled experts in the fields of data science and machine learning to address complex data management challenges. Our goal is to enhance the organization’s ability to harness the full potential of its data by employing advanced analytical techniques and innovative machine learning models.
-                  </p>
-                <!-- <button
-                  class="text-sm md:text-base bg-blue-950 rounded-full lg:w-1/4 w-full py-3 flex items-center justify-center gap-x-4 border text-white"
-                >
-                  <span><img src="{{ asset('images/icon/arroww.svg') }}" alt="Arrow Icon"/></span>
-                  See Detail
-                </button> -->
-                </div>
-              </div>
-              <div class="horizontal-line bg-slate-300 lg:my-0 my-6"></div>
-              <div class="flex lg:flex-row flex-col lg:py-12 gap-x-8">
-                <div class="w-full">
-                  <img src="{{ asset('images/uob.jpg') }}" alt="" srcset="" class="w-full">
-                </div>
-                <div class="flex flex-col">
-                  <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">2023</p>
-                  <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">Web Development Using Java 8.0</h1>
-                  <div class="flex gap-x-2">
-                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-                      Service
-                    </button>
-                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-                      Portfolio
-                    </button>
-                    <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-                      About Us
-                    </button>
-                  </div>
-                  <p class="py-4">
-                    Repository collaborate with PT Pronata Data Insani, PT Indivara Sejahtera Sukses
-                    Makmur(Indivara) and PT Bank UOB Indonesia by assist fixing code for internal UOB App.
-                    The goals is to process transaction and track customer data automatically.
-                  </p>
-                  <!-- <button
-                    class="text-sm md:text-base bg-blue-950 rounded-full lg:w-1/4 w-full py-3 flex items-center justify-center gap-x-4 border text-white"
-                  >
-                    <span><img src="{{ asset('images/icon/arroww.svg') }}" alt="Arrow Icon"/></span>
-                    See Detail
-                  </button> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
+                <div>
+                    @foreach($portfolios as $portfolio)
+                    <div class="flex flex-col lg:flex-row lg:py-12 gap-x-8">
+                        <!-- Container Gambar -->
+                        <div class="w-full lg:w-5/12 aspect-[16/9] overflow-hidden">
+                            <img class="object-fit w-full h-full" src="{{ asset($portfolio['image']) }}" alt="{{ $portfolio['title'] }}">
+                        </div>
+                        <!-- Konten Teks -->
+                        <div class="flex flex-col lg:w-7/12">
+                            <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">{{ $portfolio['year'] }}</p>
+                            <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">
+                                {{ $portfolio['title'] }}
+                            </h1>
+                            <div class="flex gap-x-2">
+                                <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Service</button>
+                                <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Portfolio</button>
+                                <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">About Us</button>
+                            </div>
+                            <p class="py-4">
+                                {{ $portfolio['description'] }}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="horizontal-line bg-slate-300 lg:my-0 my-6"></div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
 @endsection

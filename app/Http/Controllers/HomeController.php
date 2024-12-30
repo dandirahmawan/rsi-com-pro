@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class HomeController extends Controller
 {
     public function index()
@@ -28,13 +26,46 @@ class HomeController extends Controller
                 'link' => '#'
             ],
             [
-                'title' => ' E-commerce / Company Profile',
+                'title' => 'E-commerce / Company Profile',
                 'description' => 'Empowering Your Business to Sell More and Stand Out in the Digital World.',
                 'image' => 'images/company-profile.jpg',
                 'link' => '#'
             ],
         ];
 
-        return view('pages.home', compact('services'));
+        $portfolios = [
+            [
+                'year' => '2022',
+                'title' => 'Machine Learning and Data Science. PT PLN Indonesia Power',
+                'description' => 'We are collaborating with PT Indonesia Power by providing highly skilled experts in the fields of data science and machine learning to address complex data management challenges.',
+                'image' => 'images/7150856-pt-indonesia-power.jpg',
+            ],
+            [
+                'year' => '2023',
+                'title' => 'Web Development Using Java 8.0',
+                'description' => 'Repository collaborate with PT Pronata Data Insani, PT Indivara Sejahtera Sukses Makmur (Indivara) and PT Bank UOB Indonesia by assisting in fixing code for the internal UOB App.',
+                'image' => 'images/uob.jpg',
+            ],
+        ];
+
+        return view('pages.home', compact('services', 'portfolios'));
+    }
+    public function portfolio()
+    {
+        $portfolios = [
+            [
+                'year' => '2022',
+                'title' => 'Machine Learning and Data Science. PT PLN Indonesia Power',
+                'description' => 'We are collaborating with PT Indonesia Power by providing highly skilled experts in the fields of data science and machine learning to address complex data management challenges.',
+                'image' => 'images/7150856-pt-indonesia-power.jpg',
+            ],
+            [
+                'year' => '2023',
+                'title' => 'Web Development Using Java 8.0',
+                'description' => 'Repository collaborate with PT Pronata Data Insani, PT Indivara Sejahtera Sukses Makmur (Indivara) and PT Bank UOB Indonesia by assisting in fixing code for the internal UOB App.',
+                'image' => 'images/uob.jpg',
+            ],
+        ];
+        return view('pages.portfolio', compact('portfolios'));
     }
 }

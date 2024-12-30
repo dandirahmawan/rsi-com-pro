@@ -36,6 +36,9 @@
     background-color: transparent;
 }
 
+.sticky-navbar.scrolled #mobile-menu-button svg {
+    stroke: black;
+}
 
 
 

@@ -38,7 +38,7 @@
           <!-- Social Links -->
           <div class="my-6 flex gap-4">
             <a
-              href="#"
+              href="https://www.instagram.com/repositoryindonesia/"
               target="_blank"
               rel="noopener noreferrer"
               class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-xl border"
@@ -53,13 +53,19 @@
         <div class="flex flex-col items-start lg:items-start">
           <div class="flex gap-x-8">
             <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-              Service
+                <a href="{{ url('/service') }}">
+                    Service
+                </a>
             </button>
             <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-              Portfolio
+                <a href="{{ url('/portfolio') }}">
+                    Portfolio
+                </a>
             </button>
             <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
-              About Us
+                <a href="{{ url('/aboutus') }}">
+                    About Us
+                </a>
             </button>
           </div>
           <p class="text-sm lg:text-base text-slate-400 pt-4">
