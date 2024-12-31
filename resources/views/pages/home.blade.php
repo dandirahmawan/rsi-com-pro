@@ -90,11 +90,11 @@
                             Innovative Technology Services Designed to Drive Your Business Forward
                         </p>
                     </div>
-                    <button
+                    <a href="https://drive.google.com/file/d/1VB9TQbPUEvbLJr2QNFE_LdvxEufUzNTJ/view?usp=sharing" target="_blank" rel="noopener noreferrer"
                         class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/4 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300">
-                        <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
-                        Expolre All
-                    </button>
+                            <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
+                            Expolre All
+                    </a>
                 </div>
                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-6">
                     @foreach ($services as $service)
@@ -134,13 +134,11 @@
                         <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-5xl font-bold mb-4">Portfolio</h1>
                         <p>Showcasing Our Success Stories Across Diverse Industries</p>
                     </div>
-                    <button
+                    <a href="{{ route('portfolio') }}"
                         class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/4 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300">
                         <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
-                        <a href="{{ route('portfolio') }}">
                         Explore All
-                        </a>
-                    </button>
+                    </a>
                 </div>
 
                 <div>
@@ -157,9 +155,9 @@
                                 {{ $portfolio['title'] }}
                             </h1>
                             <div class="flex gap-x-2">
-                                <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Service</button>
-                                <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Portfolio</button>
-                                <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">About Us</button>
+                                <div class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Technologies</div>
+                                <div class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Development</div>
+                                <div class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Partnership</div>
                             </div>
                             <p class="py-4">
                                 {{ $portfolio['description'] }}

@@ -52,7 +52,7 @@
             </a>
           </div>
         </div>
-        <div class="flex flex-col items-start lg:items-start">
+        {{-- <div class="flex flex-col items-start lg:items-start">
           <div class="flex gap-x-8">
             <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">
                 <a href="{{ url('/service') }}">
@@ -69,8 +69,8 @@
                     About Us
                 </a>
             </button>
-          </div>
-          <p class="text-sm lg:text-base text-slate-400 pt-4">
+          </div> --}}
+          <p class="text-sm lg:text-base text-slate-400 pt-20">
             © 2024 REPOSITORY
           </p>
         </div>

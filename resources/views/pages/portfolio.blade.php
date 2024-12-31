@@ -32,9 +32,9 @@
                             {{ $portfolio['title'] }}
                         </h1>
                         <div class="flex gap-x-2">
-                            <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Service</button>
-                            <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Portfolio</button>
-                            <button class="rounded-2xl border py-1 px-5 text-sm lg:text-base">About Us</button>
+                            <div class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Technologies</div>
+                            <div class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Development</div>
+                            <div class="rounded-2xl border py-1 px-5 text-sm lg:text-base">Partnership</div>
                         </div>
                         <p class="py-4">
                             {{ $portfolio['description'] }}
