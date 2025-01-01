@@ -27,7 +27,7 @@
                     </div>
                     <!-- Konten Teks -->
                     <div class="flex flex-col lg:w-7/12">
-                        <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">{{ $portfolio['year'] }}</p>
+                        {{-- <p class="text-sm text-slate-500 md:text-base lg:text-lg lg:pt-0 pt-6">{{ $portfolio['year'] }}</p> --}}
                         <h1 class="text-blue-950 text-3xl md:text-5xl lg:text-4xl font-bold py-4">
                             {{ $portfolio['title'] }}
                         </h1>

@@ -26,7 +26,7 @@ class HomeController extends Controller
                 'link' => '#'
             ],
             [
-                'title' => 'E-commerce / Company Profile',
+                'title' => 'Managed Services (Resource Provision)',
                 'description' => 'Empowering Your Business to Sell More and Stand Out in the Digital World.',
                 'image' => 'images/company-profile.jpg',
                 'link' => '#'

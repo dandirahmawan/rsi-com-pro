@@ -49,3 +49,24 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial call to set correct state
     handleScroll();
 });
+
+
+// JavaScript for Accordion
+const toggleButton = document.getElementById('accordionToggle');
+const accordionContent = document.getElementById('accordionContent');
+const iconArrow = document.getElementById('iconArrow');
+
+toggleButton.addEventListener('click', () => {
+    // Toggle visibility
+    accordionContent.classList.toggle('hidden');
+
+    // Smooth height adjustment
+    if (!accordionContent.classList.contains('hidden')) {
+        accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px'; // Expand
+    } else {
+        accordionContent.style.maxHeight = null; // Collapse
+    }
+
+    // Rotate icon
+    iconArrow.classList.toggle('rotate-90');
+});

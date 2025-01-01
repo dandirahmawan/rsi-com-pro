@@ -50,6 +50,17 @@
                 alt="Instagram Icon"
               />
             </a>
+            <a
+              href="https://www.linkedin.com/company/repository-solusi-indonesia"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group/link relative inline-flex h-[34px] w-[34px] items-center justify-center rounded-xl border"
+            >
+              <img
+                src="{{ asset('images/icon/linkedin.svg') }}"
+                alt="Linkedin Icon"
+              />
+            </a>
           </div>
         </div>
         {{-- <div class="flex flex-col items-start lg:items-start">
