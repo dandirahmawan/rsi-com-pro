@@ -60,7 +60,7 @@
                 <div class="py-10 md:my-8 lg:my-8 px-4 lg:px-0 overflow-hidden mx-auto flex items-center justify-center">
                     <div class="w-[1160px] h-[250px] flex items-center justify-center rounded border">
                         <img src="{{ asset('images/aboutus.jpeg') }}" alt="About Us Image"
-                        class="w-full h-full object-cover">
+                        class="w-full object-contain">
                     </div>
                 </div>
                 <p class="text-slate-500 text-xl px-4 lg:px-20">
