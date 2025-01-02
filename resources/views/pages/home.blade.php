@@ -121,7 +121,7 @@
                             Innovative Technology Services Designed to Drive Your Business Forward
                         </p>
                     </div>
-                    <a href="Explore all ganti kesini https://drive.google.com/drive/folders/12PO-RgqSeOptcbRxoCPRRXNd1aG2vIzD"
+                    <a href="https://drive.google.com/drive/folders/12PO-RgqSeOptcbRxoCPRRXNd1aG2vIzD"
                         target="_blank" rel="noopener noreferrer"
                         class="text-sm md:text-base bg-white rounded-full my-10 w-full lg:w-1/4 px-2 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-center gap-x-2 border border-slate-300">
                         <span><img src="{{ asset('images/icon/arrow.svg') }}" alt="Arrow Icon" /></span>
